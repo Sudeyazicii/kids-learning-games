@@ -1,0 +1,7 @@
+{
+  "name": "BİLSEM Kids GenAI",
+  "description": "A visual, interactive preparation platform for 5-6 year olds using Gemini AI for TTS, Image Editing, and Storytelling.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

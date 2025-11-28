@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BİLSEM Kids</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'kid-red': '#FF6B6B',
+              'kid-blue': '#4ECDC4',
+              'kid-yellow': '#FFE66D',
+              'kid-green': '#95E1D3',
+              'kid-purple': '#AC6CFF',
+              'kid-orange': '#FFAD5A',
+              'kid-dark': '#2D3436',
+            },
+            animation: {
+              'bounce-slow': 'bounce 3s infinite',
+              'wiggle': 'wiggle 2s ease-in-out infinite',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              wiggle: {
+                '0%, 100%': { transform: 'rotate(-3deg)' },
+                '50%': { transform: 'rotate(3deg)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+        /* Playful Polka Dot Background */
+        background-color: #f0f9ff;
+        background-image: 
+          radial-gradient(#4ECDC4 3px, transparent 3px), 
+          radial-gradient(#FF6B6B 3px, transparent 3px);
+        background-size: 50px 50px;
+        background-position: 0 0, 25px 25px;
+        overflow: hidden; 
+        touch-action: manipulation;
+      }
+      .no-select {
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      /* Hide scrollbar for cleaner look */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
