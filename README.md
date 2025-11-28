@@ -2,64 +2,15 @@
 
 **5-6 Yaş Çocuklar için Etkileşimli Eğitim Platformu | Okuma Gerektirmez**
 
-[![Lisans: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Google AI Studio ile Yapıldı](https://img.shields.io/badge/Made%20with-Google%20AI%20Studio-blue)](https://ai.studio)
-[![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript)]
-
-[🎮 Canlı Demo](https://ai.studio/apps/temp/1) • [✨ Özellikler](#-özellikler) • [🎯 Oyunlar](#-oyunlar) • [🚀 Başlangıç](#-başlangıç)
-
----
-
-## 📖 Hakkında
-
-BİLSEM (Bilim ve Sanat Merkezi) sınavına hazırlanan 5-6 yaş çocuklar için eğitsel oyun platformu.  
-6 etkileşimli oyun ile mantık, yaratıcılık, dikkat ve problem çözme becerilerini geliştirir.
-
-🎯 **Okuma bilmeyen çocuklar için ideal** — sadece görseller ve sesli yönergeler!
-
----
-
-## ✨ Özellikler
-
-- 🎮 **6 Farklı Oyun**: Boyama, Çizim, Bulmaca, Desen Tanıma, Hikaye Zarları, Farkı Bul  
-- 🎚️ **3 Zorluk Seviyesi**: Kolay → Orta → Zor  
-- 🔊 **Tam Sesli Yönerge**: Türkçe sesli anlatım  
-- 📱 **Mobil Uyumlu**: Dokunmatik ekran desteği  
-- 🎨 **Sıfır Yazı Arayüzü**: Sadece ikonlar ve görseller  
-- ⚡ **Hiçbir Bağımlılık Yok**: Saf Vanilla JavaScript  
-- 💾 **İlerleme Kaydı**: LocalStorage ile kaydetme  
-
 ---
 
 ## 🎯 Oyunlar
 
-| Oyun | Kazanılan Beceri | Seviyeler |
-|------|-----------------|-----------|
-| 🎨 **Boyama** | Yaratıcılık, İnce Motor Becerileri | Serbest Mod |
-| ✏️ **Çizim** | Yaratıcılık, İfade | Serbest + Görev Modu |
-| 🔷 **Desen Tanıma** | Mantık, Sıralama | Kolay/Orta/Zor |
-| 🧩 **Bulmaca** | Problem Çözme, Mekansal Akıl | 4/6/9 parça |
-| 🎲 **Hikaye Zarları** | Yaratıcılık, Hikaye Anlatımı | 4/6/8 zar |
-| 🔍 **Farkı Bul** | Dikkat, Gözlem | Kolay/Orta/Zor |
-
----
-
-## 🚀 Başlangıç
-
-**Gereksinimler:** Node.js (v16+) ve [Gemini API key](https://ai.google.dev/)
-
-```bash
-# Depoyu klonla
-git clone https://github.com/yourusername/bilsem-prep-games.git
-cd bilsem-prep-games
-
-# Bağımlılıkları yükle
-npm install
-
-# Ortam değişkenini ayarla (Gemini API key)
-echo "GEMINI_API_KEY=your_api_key_here" > .env.local
-
-# Geliştirme sunucusunu çalıştır
-npm run dev
-
-# Tarayıcıda aç: http://localhost:3000 🎉
+| Oyun | Açıklama |
+|------|----------|
+| 🎨 Resim Boyama | Çocukların yaratıcılığını ve ince motor becerilerini geliştirir |
+| ✏️ Resim Çizme | Kendi çizimlerini yaparak ifade yeteneğini güçlendirir |
+| 🔷 Örüntü Tamamlama | Mantık ve sıralama becerilerini destekler |
+| 🧩 Puzzle | Problem çözme ve mekansal akıl geliştirme |
+| 🎲 Zar ile Hikaye Anlatma | Yaratıcılık ve hikaye anlatımı pratiği |
+| 🔍 Farklı Görseli Bulma | Dikkat ve gözlem yeteneğini artırır |
