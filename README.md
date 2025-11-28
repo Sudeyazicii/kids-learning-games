@@ -14,3 +14,20 @@
 | 🧩 Puzzle | Problem çözme ve mekansal akıl geliştirme |
 | 🎲 Zar ile Hikaye Anlatma | Yaratıcılık ve hikaye anlatımı pratiği |
 | 🔍 Farklı Görseli Bulma | Dikkat ve gözlem yeteneğini artırır |
+## 🚀 Başlangıç
+
+**Gereksinimler:** Node.js (v16+)
+
+```bash
+# Depoyu klonla
+git clone https://github.com/Sudeyazicii/kids-learning-games.git
+cd kids-learning-games
+
+# Bağımlılıkları yükle
+npm install
+
+# Geliştirme sunucusunu çalıştır
+npm run dev
+
+# Tarayıcıda aç
+http://localhost:3000
