@@ -4,6 +4,12 @@
 
 ---
 
+## 🌐 Canlı Sürüm
+Projeyi tarayıcıdan anında oynayabilirsiniz:  
+[https://frolicking-taffy-598771.netlify.app/]
+
+---
+
 ## 🎯 Oyunlar
 
 | Oyun | Açıklama |
